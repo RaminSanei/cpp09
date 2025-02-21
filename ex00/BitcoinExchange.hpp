@@ -1,6 +1,9 @@
 #ifndef BITCOIN_EXCHANGE_HPP
 #define BITCOIN_EXCHANGE_HPP
 #include <map>
+#include <iostream>
+#include <fstream>
+#include <sstream>
 
 
 class BitcoinExchange

@@ -11,6 +11,18 @@
 #include <algorithm>
 
 class PmergeMe {
+private:
+    template <typename Container>
+    void mergeInsertionSort(Container& container);
+
+    template <typename Container>
+    void displaySequence(const std::string& message, const Container& container) const;
+
+    template <typename Container>
+    void sortWithContainer(const Container& sequence, const std::string& containerName);
+
+    double getElapsedTime(const std::clock_t& start) const;
+
 public:
     PmergeMe();
     PmergeMe(const PmergeMe& other);
